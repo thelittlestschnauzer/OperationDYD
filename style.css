@@ -11,47 +11,109 @@ body {
   vertical-align: baseline;
 }
 
+.home-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  right: 18%;
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+.white-text-motto {
+  padding: 10px;
+  font-family: 'Montserrat';
+}
+
+.menu-container {
+  position: fixed;
+  left: 30%;
+  margin-top: 150px;
+  background: #fff;
+  border: 1px solid #3a3a4c;
+}
+
+#top-navigation {
+  position: relative;
+  margin-top: 10%;
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
+
+#top-menu {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#top-menu li {
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px 30px;
+  font-weight: 300;
+  background-color: #fff;
+  border-left: 1px solid #4c637e;
+  letter-spacing: 2px;
+}
+
+#top-menu li:hover {
+  background-color: #4c637e;
+}
+
+#top-menu>li>a {
+  display: table-cell;
+  width: 100px;
+  height: 68px;
+  vertical-align: middle;
+  
+}
+
+.item {
+  color: #3a3a4c;
+}
+
+.item:hover {
+  color: #f03a57;
+  text-decoration: none;
+}
+
+.home-page-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+
+.fab {
+  color: #3a3a4c;
+  font-size: 15px;
+}
+
+.fab:hover {
+  color: #f03a57;
+}
+
 .nav-link {
   text-transform: uppercase;
   text-decoration: none;
   color: #3a3a4c;
-}
-
-#top-header {
-  font-family: 'Montserrat';
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  font-style: normal;
-  text-transform: uppercase;
-  text-decoration: none;
+  font-size: 13px;
   letter-spacing: 2px;
-  background-color: rgba(255,255,255,0);
-  z-index: 999;
-  margin: 0 40px;
 }
 
-#top-header.container {
-  line-height: 1em;
-  position: relative;
-  text-align: left;
-  width: 80%;
+.nav-link:hover {
+  color: #f03a57;
 }
 
-#small-secondary-menu {
-  float: none;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
 
 
 
